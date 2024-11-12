@@ -1,0 +1,21 @@
+String Methods
+  1. upper()
+  2. lower()
+  3. capitalize()
+  4. title()
+  5. swapcase()
+  6. replace() -> change strings
+  7. split() -> string to list
+  8. join() -> list to string
+  9. strip() 
+  10. lstrip()
+  11. rstrip()
+  12. startswith()
+  13. endswith()
+  14. find()
+  15. count()
+  16. isalnum()
+  17. isalpha()
+  18. isdigit()
+  19. isspace()
+  20. istitle()

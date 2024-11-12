@@ -1,0 +1,7 @@
+Type of Conversion
+
+  1. Explicit
+    -> when we are converting data type using built-in method, its called Explicit Conversion. Such as int(), str(), float()
+
+  2. Implicit
+    -> When the data type is changing automatically, its called Implicit Conversion. Such as a = 10, b = 3.14, c = 13.14 -> c data type is float, but we didn't make it by ourselves. That's why its called Implicit Conversion.

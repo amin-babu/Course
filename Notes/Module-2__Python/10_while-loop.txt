@@ -1,0 +1,82 @@
+Control Flow While loop
+[Starting Point, Condition, Increament]
+
+1. While loop (List)
+--------------------
+    fruits = ['Apple', 'Mango', 'Jackfruit', 'Paina-Apple']
+
+    i = 0
+    while i < len(fruits):
+      print(fruits[i])
+      i = i + 1
+
+2. While loop (Range)
+---------------------
+
+  => Syntax
+  ---------
+    index = 1
+    end = 10
+    while index <= end:
+      print(index)
+      index = index + 1
+
+3. Break and Continue (While Loop)
+----------------------------------
+
+  A. Break
+  --------
+    index = 1
+    end = 5
+    while index <= end:
+      if index == 3:
+        break
+      print(index)
+      index = index + 1
+
+  B. Continue
+  -----------
+    index = 1
+    end = 5
+    while index <= end:
+      if index == 3:
+        index = index + 1
+        break
+      print(index)
+      index = index + 1
+
+4. While Loop (Dictionary)
+--------------------------
+
+  => Method-1
+  -----------
+    result = {'physics':90, 'math':87, 'English':55, 'arabic':99}
+    keys = list(result.keys())
+
+    index = 0
+    while index < len(keys):
+      print(keys[index])
+      index = index + 1
+
+  => Method-2
+  -----------
+    result = {'physics':90, 'math':87, 'English':55, 'arabic':99}
+    keys = list(result.keys())
+
+    index = 0
+    while index < len(keys):
+      eachKey = keys[index]
+      print(result[eachKey])
+      index = index + 1
+
+  => Method-3
+  -----------
+    result = {'physics':90, 'math':87, 'English':55, 'arabic':99, 'Grammer':98}
+    keys = list(result.keys())
+
+    index = 0
+    while index < len(keys):
+      eachKey = keys[index]
+      output = '{} {}'.format(eachKey, str(result[eachKey]))
+      print(output)
+      index = index + 1

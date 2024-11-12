@@ -1,0 +1,48 @@
+Control Flow for loop
+----------------------
+
+  1. for in loop [list]
+    => Syntax 
+    ---------
+      -> list = ['Mango', 'Apple', 'Jackfruits', 'Watermellon']
+
+         for i in list:
+          print(i)
+  
+  2. for in loop (range)
+    => Syntax
+    ---------
+      -> for i in range(10):
+          print(i)
+
+  3. for in loop (dictionary)
+    => Syntax
+    ---------
+      -> result = {'Math':90, 'English': 85, 'Science': 84}
+
+         for sub, marks in result.items():
+           print(sub, marks)
+
+  4. for in loop (sets)
+    => Syntax
+    ---------
+      -> uniNum = {1, 1.2, True, 'Bangla', 84, 45}
+
+         for e in  uniNum:
+           print(e)
+
+  5. Break and Continue
+
+    => Break
+    ---------
+      for i in range(10):
+      if i == 5:
+        continue
+      print(i)
+
+    => Continue
+    ---------
+      for i in range(10):
+      if i == 5:
+        continue
+      print(i)

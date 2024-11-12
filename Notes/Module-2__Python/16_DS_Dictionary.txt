@@ -1,0 +1,19 @@
+All About Dictionary
+--------------------
+
+  => Dictionary Speciality
+  ------------------------
+    1. Unorderd
+    2. Mutable
+    3. Key Unique - No Duplicate
+    4. Heterogeneous (Allow all types of data, such as string, boolean, numbers)
+
+  => Dictionary Methods
+  ---------------------
+    1. keys() => to get all properties
+    2. values() =>  to get all values
+    3. items() => to make tupels as list
+    4. update() => to change key and valus data
+    5. pop() => to cut specific key and values
+    6. clear() => will be cleared
+    7. get() => to get specific key's value

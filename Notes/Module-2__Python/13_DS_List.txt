@@ -1,0 +1,34 @@
+All about List
+--------------
+
+=> List Speciality
+------------------
+  1. Order 
+  2. Mutable 
+  3. Allow Duplicate Values 
+  4. Heterogeneous (Allow all types of data, such as string, boolean, numbers) 
+  5. Dynamic Size (Can increase and decrease the list size using append() and remove() methods)
+
+=> List Methods
+---------------
+  1. append() => to add any data
+  2. insert() => to add any data in specific index
+  3. extend() => add multiple list in one list
+  4. remove() => remove any data, it removes 1st data if there is same data
+  5. pop() => it will cut last, also can cut index no using pop(0)
+  6. clear() => will clear all data
+  7. index() => check any data's index Value
+  8. count() => cheke how much are there the specific data
+  9. sort() => will sort as assending order like [abc... or 123...]
+  10. reverse() => will be opposite of defalut list
+  11. len() => to count data length
+
+=> List Slicing
+  => syntax
+    text = [5, 9, 4, 1, 2, 0, -3, ]
+    print(text[1:4])
+    print(text[:4])
+    print(text[3:])
+    print(text[-5:-3])
+  
+  => it started from index no 1 and end before index 4, index 1 is '9' and before index 4 is '1' -> the output is [9, 4, 1]

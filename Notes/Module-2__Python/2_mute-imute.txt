@@ -1,0 +1,44 @@
+1. Immutable Data Type
+---------------------
+  => Immutable object cannot be modified after their creation
+
+  => Immutable Data Type List
+    1. Integer
+    2. Floating Point Number
+    3. Strings
+    4. Tupels
+    5. Frozen Sets
+
+  => Immutable means
+    => Imutable means when we declare a vairable and assign a value like A = 5. then if we reassign the value like A = 6, it doesn't mean we replaced 5 to 6, it means we redeclare a vairable and reassign the value.
+
+  => Checking process of Imutable Data Type
+    a = 5.66
+    location = id(a)
+    print(location)
+    a = 6.41
+    location = id(a)
+    print(location)
+
+  => The conclution is Immutable means the vairable data has changed, and also changed their location to creat new vairable.
+
+2. Mutable Data Type
+--------------------
+  => Mutable Means
+    Mutable means when we reassign a value, it does not change their location. It does not mean it created a new vairable and reassign the value. It just replaced the value. After changing the value, the location will not be changed.
+
+  => Mutable Data Type List
+    1. List
+    2. Dictionary
+    3. Sets
+
+  => Checking process of Mutable Data Type
+    l = [1, 2, 3]
+    print(l)
+    first_location = id(l)
+    print(first_location)
+
+    l[0] = 5
+    print(l)
+    second_location = id(l)
+    print(second_location)

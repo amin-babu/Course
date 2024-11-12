@@ -1,0 +1,30 @@
+Control Flow Statement
+
+=> if else syntax
+
+    marks = 65
+
+    if marks >= 80:
+      print('A+')
+
+    elif marks > 70:
+      print('A')
+
+    elif marks >= 33:
+      print('Pass')
+
+    else:
+      print("Fail")
+
+=> Nasted if else Statement
+    age = 15
+    is_permission = True
+
+    if age >= 18:
+      if is_permission == True:
+        print('You can do this')
+      else:
+        print('You need permission')
+
+    else:
+      print('You can not do this')

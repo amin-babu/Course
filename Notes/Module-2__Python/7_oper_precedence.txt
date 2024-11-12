@@ -1,0 +1,26 @@
+Operator Precedence
+-------------------
+  1. Exponentiation (**)
+  2. Unary plus, Unary Minus, Bitwise NOT (+x, -x, ~x)
+  3. Multiplication (X)
+  4. Division (/)
+  5. Floor Division (//)
+  6. Modulus (%)
+  7. Addition (+)
+  8. Subtraction (-)
+  9. Bitwise Shift (<< >>)
+  10. Bitwise AND (&)
+  11. Bitwise XOR (^)
+  12. Bitwise OR (|)
+  13. Comparision, Identity, Membership (==, !=, >, <, >=, <=, is, is not, in, not in)
+  14. Logical NOT (not)
+  15. Logical AND (and)
+  16. Logical OR (or)
+
+Necessary Operator
+------------------
+  1. Unary plus, Unary Minus, Bitwise NOT (+x, -x, ~x)
+  2. Multiplication, Division, Floor Division, Modulus (*, /, //, %)
+  3. Addition, Subtraction (+, -)
+  4. And, OR (&, |)
+  5. Equal, Not Equal, Greater then, Less then, Greater then Equal, Less then Equal (==, !=, >, <, >=, <=) 

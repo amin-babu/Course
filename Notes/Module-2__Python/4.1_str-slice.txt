@@ -1,0 +1,16 @@
+String Slicing
+  1. Start, 2. Stop, 3. Step
+
+    text = 'Hello World'
+    print(text[0:5])
+
+    1. Start String Slicing
+      => Slicing started from 0 index and has stoped before 5 index, the result is 'Hello' cause 0 index is 'H' and before 5 index is 'o' or before space.
+
+      => print(text[:5]) -> it will be 'Hello' output. when we set end index only it will take whole data from starting index.  
+
+    2. Stop String Slicing
+      => print(text[6:]) -> it will be 'World' output. when we set start index only it will take whole data from starting index.
+    
+    3. Step String Slicing
+      => print(country[0::3]) -> IT will start from start index, when we set 2 inf ::2 it will remove 1 character from string. when we set 3 inf ::3 it will remove 2 character from string. such as print(text[1::2])

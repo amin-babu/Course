@@ -1,0 +1,10 @@
+Comparison Operator
+
+  => Comparison Operators list
+  ----------------------------
+    1. == (Equal Equal)
+    2. !=  (Not Equal)
+    3. > (Greater Then)
+    4. < (Less Then)
+    5. >= (Greater Then Equal)
+    6. <= (Less Then Equal)

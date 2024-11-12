@@ -1,0 +1,22 @@
+All About Sets
+--------------
+
+  => Sets Speciality
+  ------------------
+    1. Unorderd
+    2. Mutable
+    3. No Duplicate
+    4. Heterogeneous (Allow all types of data, such as string, boolean, numbers)
+    5. Dynamic Size (Can increase and decrease the list size using add() and remove() methods)
+
+  => Sets Methods
+  ---------------
+    1. add() => to include any item
+    2. update() => to add multiple data
+    3. remove() => to remove specific data
+    4. clear() => will be cleared
+    5. union() => add multiple sets in one list
+    6. intersection() => to find common elements
+    7. difference() => to find difference elements
+    8. issubset() => math sets terms
+    9. issuperset() => math sets terms

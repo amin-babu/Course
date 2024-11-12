@@ -1,0 +1,13 @@
+Math and Methods
+  1. math.sqrt() -> Square Root
+  2. math.pow() -> Power
+  3. math.cos(math.radians(90)) -> Trigonometric Function
+  4. math.log(10), math.log10(10) -> Logarithmic Function
+  5. math.factorial(5) -> Factorial
+  6. math.fabs(-8.3) -> Absolute Value
+  7. math.floor(4.7), math.ceil(4.6) -> Floor & Celling
+  8. math.pi, math.e -> Constants
+  9. math.gcd(10, 25) -> Greatest Common Divisor
+  10. math.lcm(12, 18) -> Least Common Multiple
+
+=> Will have to declare [import math] to work with math

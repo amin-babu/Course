@@ -1,0 +1,27 @@
+All About Tupels
+----------------
+
+  => Tupels Speciality
+  --------------------
+    1. Ordered
+    2. Allow Doplicates
+    3. Heterogeneous (Allow all types of data, such as string, boolean, numbers)
+    4. Fixed Size (Can not increase and decrease the list size using append() and remove() methods)
+    5. Immutable
+  
+  => Tupels Methods
+  -----------------
+    1. count() => cheke how much are there the specific data
+    2. index() => check any data's index Value
+    3. list() => to convert list data type
+
+  => Tupels Slicing
+  -----------------
+    => syntax
+    text = (5, 9, 4, 1, 2, 0, -3,)
+    print(text[1:4])
+    print(text[:4])
+    print(text[3:])
+    print(text[-5:-3])
+  
+    => it started from index no 1 and end before index 4, index 1 is '9' and before index 4 is '1' -> the output is (9, 4, 1)

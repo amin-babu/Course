@@ -1,0 +1,57 @@
+7 Types of Data Types
+---------------------
+  1. Numeric Type
+  2. String Type
+  3. Sequence Type
+  4. Boolean Type
+  5. None Type
+  6. Mapping Type
+  7. Set Types 
+
+  Explaintaions of All Data Types
+  -------------------------------
+    1. Numeric Data Type
+      => 1.1  Integer Data type (10, 45)
+      => 1.2  Float Data Type (51.2410, 98.4475)
+      => 1.3  Complex Data Type (10+20j)
+
+    2. String Data Type
+      => String data type contains characters ('This is a Ball')
+
+    3. Sequence Data Type
+      => 3.1  List == city['Dhaka', 'Khulna', 'Chittagong', 100, True]
+              List works as order list from 0.  print(city[3]) => Chittagong
+
+      => 3.2  Tupel == city('Dhaka', 'Khulna', 'Chittagong', 100, True)
+              Tupel works as list like order.
+      
+      => 3.3  Range == num=range(1, 10) => print(*num) [used in exception]
+
+    4. Boolean Data Type
+        => Boolean data type contains True and False
+
+    5. None Data Type
+      => None means nothing. => taka = None, print(taka) => None
+
+    6. Mapping Data Type
+      #Dictionary
+        => Key Value Pair. Which is Object called in JavaScript
+        => person = {
+            'first-name': 'Amin',
+            'last-name': 'Babu',
+            'Age' : 24,
+            'CSE' : False,
+            'Coding' : True
+          }
+        => Unorder List
+
+    7. Set Data Type
+      => 7.1 Set Data Type
+        => unique_numbers = {1, 2, 'Hello', True}
+        => set doesn't contain same value, set contains unique value.
+        => Unorder List
+      
+      => 7.2 Frozenset Data Type
+        => num = frozenset([1, 2, 3, 4, 4, 1])
+        => This one avoids doplicate value is Set
+        => Unorder List

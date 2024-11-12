@@ -1,0 +1,17 @@
+Logical Operators
+-----------------
+
+1. And Operator (and) 
+  => if age >= 18 and age <=30:
+        print('You can do this)
+
+2. Or Operator (or)
+  => if age >= 18 or age <=30:
+        print('You can do this)
+
+2. Not Operator (not)
+  => if not age > 18:
+        print('You can do this')
+
+#Combining 
+  => if (age >= 18 or has_permission == True) and is_vip == True:
