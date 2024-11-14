@@ -1,4 +1,4 @@
-Math and Methods
+Math and Methods => Library Function
   1. math.sqrt() -> Square Root
   2. math.pow() -> Power
   3. math.cos(math.radians(90)) -> Trigonometric Function

@@ -4,7 +4,13 @@
 
 2. String Concatination
   => Using the + operator -> #textE = textA + ' ' + textB
+  
   => Using , #textE = (textA, textB)
+
+  => Using Fstring -> #textE = (f"{textA} {textB}")
+
   => Using join() method -> #textE = ' '.join([textA, textB]) + ' !'
+
   => Using format() method -> #textE = "{} {} !".format(textA, textB)
+
   => Using % formatting -> #textE = "%s %s !" %(textA, textB)

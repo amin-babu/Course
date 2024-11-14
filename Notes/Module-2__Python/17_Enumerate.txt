@@ -1,0 +1,22 @@
+Enumerate
+
+  => to make a list as order or index
+
+    -> Normal Way
+    -------------
+      data = ['String', 'Tupels', 'Dictionary', True, 54000, 'Boolean', False]
+
+      n = 1
+      for dataList in data:
+        print(f"{n} {dataList}")
+        n += 1
+
+
+
+
+    -> Using Enumerate
+    ------------------
+      data = ['String', 'Tupels', 'Dictionary', True, 54000, 'Boolean', False]
+
+      for order, dataList in enumerate(data, start=1):
+        print(f"{order} {dataList}")
