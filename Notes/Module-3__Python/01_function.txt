@@ -1,0 +1,39 @@
+I learned
+---------
+  => Function Argument and perameter
+  => Requerd perameter and default perameter
+  => variable length Arguments (*args) (Tupels)
+  => Keyword Arguments (**keyws) (Dictionary)
+
+
+=> Function basic syntax
+------------------------
+
+  def a(): #defing
+    print('its called A') #block_code
+  a()  #calling
+
+
+
+=> Function return
+------------------
+
+  => def add(a, b):
+      num1 = a
+      num2 = b
+      sum = num1 + num2
+      return sum
+    rusult = add(10, 30) #[return replaced add(10, 30) to 40, result = 40]
+    print(rusult) => output 40
+
+  => when returning multiple data bt return, it will return as Tupels.
+
+
+
+=> Lambda Syntax
+----------------
+
+  -> result = lambda x, y: x - y
+     print(result(54, 4))
+
+  -> no need to call

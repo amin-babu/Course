@@ -1,0 +1,100 @@
+1. File Handling
+-------------
+
+  => Creat
+    -> with open('example.txt', 'w') as file:
+         print('Created')
+
+  => Write
+    -> with open('example.txt', 'w') as file:
+         file.write('Hello Var !')
+         print('Created')
+
+  => Read
+    -> with open('example.txt', 'r') as file:
+         print(file.read())
+
+  => Rename
+    -> import os
+       os.rename('example.txt', 'example2.txt')
+  
+  => Remove
+    -> import os
+       os.remove('example2.txt')
+
+2. Directory Handling
+------------------
+
+  => Creating Directory
+    -> import os
+      os.mkdir('MakeDir')
+
+  => Reading Directory
+    -> import os
+      dirItem = os.listdir('.')
+      print(dirItem)
+
+  => Remove Directory
+    -> import os
+      os.rmdir('NewDir')
+
+
+3. Zip File Handling
+------------------
+
+  => Creating Zip File
+    -> import zipfile
+
+       with zipfile.ZipFile('new.zip', 'w') as zip:
+       zip.write('demo1.txt')
+       zip.write('demo2.txt')
+ 
+ 
+  => Extract from zip file
+    -> import zipfile
+
+       with zipfile.ZipFile('new.zip', 'r') as zip:
+  	zip.extractall()
+  	print(zip.namelist())
+
+
+  => Make zip from Directory
+    -> import shutil
+       shutil.make_archive('ZipNew', 'zip', 'DirNew')
+
+
+4. CSV File Handling
+------------------
+
+
+  => How to make a  csv files
+  ---------------------------
+    import csv
+
+    data = [
+        ["Name", "Salary", "Designation", "Department", "Location"],
+        ["Alice", 70000, "Software Engineer", "IT", "New York"],
+        ["Bob", 85000, "Data Scientist", "Data", "San Francisco"],
+        ["Charlie", 60000, "System Administrator", "IT", "Chicago"],
+        ["David", 95000, "Product Manager", "Product", "Boston"],
+        ["Eve", 72000, "UX Designer", "Design", "Los Angeles"]
+    ]
+
+    with open('new.csv', 'w') as files:
+      csv_files = csv.writer(files)
+      csv_files.writerows(data)
+      print('CSV Created Successfully')
+
+  => CSV TO List
+  --------------
+
+    import csv
+
+    data = []
+    with open('new.csv', 'r') as file:
+      content = csv.reader(file)
+      for row in content:
+        data.append(row)
+
+    print(data)
+

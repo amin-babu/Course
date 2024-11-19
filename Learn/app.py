@@ -1,5 +1,8 @@
-import random
+try:
+  print('Hello ' + '10')
 
-# Generate a random float and round to 2 decimal places
-random_float = round(random.random(), 3)
-print(random_float)
+except Exception as e:
+  print(e)
+
+finally:
+  print('Finally Loaded')
