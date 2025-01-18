@@ -1,0 +1,11 @@
+3rd party packages:
+-------------------
+
+only discussed about 3rd party packages like flask, django, fastapi, panda.
+
+we learned python so far. we can work with packages to use python. we have decide that where do we want to go. it can be web development, ML, AI.
+
+then we have to use the packages based on path.
+
+this is the last module of python and i think we have learned enough python. that why we are starting to learn 3rd party packages or framework
+

@@ -1,0 +1,26 @@
+OOP Abstractmethod:
+-------------------
+
+  => Abstract means can't access the parent class, will have to access using child class.
+
+
+  Example:
+  --------
+
+    from abc import ABC, abstractmethod
+
+    class Bangladesh(ABC):
+
+      @abstractmethod
+      def sup(self):
+        pass
+
+      def district(self):
+        print('Chittagong')
+
+    class son(Bangladesh):
+      def sup(self):
+        pass #can make function or pass
+
+    object = son()
+    object.district()

@@ -1,0 +1,75 @@
+Single Inheritence
+------------------
+
+    => Example
+
+    class Father:
+      car = 50000
+      bike = 10000
+      building = True
+
+      @staticmethod
+      def all():
+        total = Father.car + Father.bike
+        print('Total => '+ str(total))
+
+    class son(Father):
+      pass
+
+    son.all()
+
+
+Multiple Inheritence
+--------------------
+
+    => Example
+
+    class Father:
+      car = 50000
+      bike = 10000
+      building = True
+
+      @staticmethod
+      def all():
+        total = Father.car + Father.bike
+        print('Total => '+ str(total))
+
+    class Mother:
+      gold = 100
+      dimond = 200
+      halecopter = False
+
+      @staticmethod
+      def mul():
+        total = Mother.gold * Mother.dimond
+        print('Total => '+ str(total))
+
+    class son(Father, Mother):
+      pass
+
+    son.mul()
+
+
+Multlevel Inheritence
+--------------------
+
+    => Example
+
+    class GrandFather:
+      car = 50000
+      bike = 100
+      building = True
+
+      @staticmethod
+      def all():
+        total = GrandFather.car + GrandFather.bike
+        print('Total => '+ str(total))
+
+    class Father(GrandFather):
+      pass
+
+
+    class Son(Father):
+      pass
+
+    Son.all()

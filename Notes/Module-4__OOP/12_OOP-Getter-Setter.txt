@@ -1,0 +1,53 @@
+OOP Getter Setter In Python Private Properties:
+-----------------------------------------------
+
+  => Gatter and Setter means accessing a Private variable from outside
+
+
+  Gatters:
+    => Method according to the name of variable
+    => Decorator @property
+
+    => Example:
+    -----------
+        class Car:
+
+          __Brand = 'Toyota'
+
+          @property
+          def Brand(self):
+            return self.__Brand
+
+        obj = Car()
+        print(obj.Brand)
+
+    
+  Setters:
+    => Method according to the name of variable
+    => Decorator @Brand.setter
+
+    => Example:
+    -----------
+
+        class Car:
+
+          __Brand = 'Toyota'
+
+          @property
+          def Brand(self):
+            return self.__Brand
+          
+
+          @Brand.setter
+          def Brand(self, value):
+            self.__Brand = value
+
+        set = Car()
+
+        #set
+        set.Brand = 'Rolse Royles'
+
+        #get
+        print(set.Brand)
+
+

@@ -1,0 +1,22 @@
+Build in Module:
+
+7. subprocess => to work at terminal
+
+    import subprocess
+
+    result = subprocess.run(
+      ['python', '--version'],
+      capture_output= True,
+      text = True
+    )
+
+    print(result.stdout)
+
+8. hashlib => to stop human readability
+
+    import hashlib
+    password = b"Abc123"
+    has_obj = hashlib.sha3_384(password)
+    print(has_obj.hexdigest())
+
+9. csv => create, read, write CSV

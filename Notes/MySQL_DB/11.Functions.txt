@@ -1,0 +1,19 @@
+All Functions in SQL:
+---------------------
+
+CONCAT:
+SELECT concat(Name, ' is ', Age, ' years old')
+FROM student
+WHERE Roll = 101;
+
+GREATEST:
+SELECT GREATEST(20, 65, 94, -96, 55);
+
+LEAST:
+SELECT LEAST(20, 65, 94, -96, 55);
+
+TRUNCATE:
+SELECT TRUNCATE(5.654365466341, 4);
+
+RAND:
+SELECT rand();

@@ -1,0 +1,77 @@
+Joining Table from 1 tables
+
+
+Joining:
+SELECT 
+	  stds.Roll, 
+    exam.Reg_number, 
+    stds.Name, 
+    stds.Gender, 
+    stds.Age, 
+    exam.GPA, 
+    exam.Group_name
+FROM student_details AS stds, exam_result AS exam
+WHERE exam.Roll = stds.Roll;
+
+
+
+JOIN Clause:
+SELECT 
+	stds.Roll, 
+    exam.Reg_number, 
+    stds.Name, 
+    stds.Gender, 
+    stds.Age, 
+    exam.GPA, 
+    exam.Group_name
+FROM student_details AS stds JOIN exam_result AS exam
+ON exam.Roll = stds.Roll;
+
+
+
+INNER JOIN:
+SELECT 
+	std.Roll, 
+    exam.Reg_number, 
+    std.Name, 
+    std.Gender, 
+    exam.GPA, 
+    exam.Group_name
+FROM student_details AS std INNER JOIN exam_result as exam
+ON std.Roll = exam.Roll;
+
+
+
+LEFT JOIN:
+SELECT 
+	std.Roll, 
+    exam.Reg_number, 
+    std.Name, 
+    std.Gender, 
+    exam.GPA, 
+    exam.Group_name
+FROM student_details AS std LEFT JOIN exam_result as exam
+ON std.Roll = exam.Roll;
+
+
+
+RIGHT JOIN:
+SELECT 
+	std.Roll, 
+    exam.Reg_number, 
+    std.Name, 
+    std.Gender, 
+    exam.GPA, 
+    exam.Group_name
+FROM student_details AS std RIGHT JOIN exam_result as exam
+ON std.Roll = exam.Roll;
+
+
+UNION/UNION ALL:
+SELECT Roll, Name, Gender 
+FROM sylhet_tour
+ 
+UNION
+ 
+SELECT Roll, Name, Gender 
+FROM dhaka_tour

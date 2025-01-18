@@ -1,0 +1,15 @@
+Sorting records with ORDER BY clause
+
+
+Assending order:
+----------------
+SELECT Name, Gender, City
+FROM student
+ORDER BY City;
+
+
+Descending order:
+----------------
+SELECT Name, Gender, City
+FROM student
+ORDER BY City DESC;

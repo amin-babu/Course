@@ -1,0 +1,28 @@
+Introduction to OOP
+
+What is OOP?
+------------
+  => OOP is a programming style where code is organized into objects that combine data and actions, making it modular and reusable.
+
+Key Points
+----------
+  => class
+  => objects
+  => attributes
+  => methods
+  => inheritence
+  => abstraction
+  => encapsulation
+  => polymorphism
+
+
+Basic Example
+-------------
+
+    class MyClass:
+      x = 50
+      y = 30
+      sum = x + y
+
+    main = MyClass
+    print(main.sum)

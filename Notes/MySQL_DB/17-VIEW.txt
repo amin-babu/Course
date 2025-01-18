@@ -1,0 +1,31 @@
+VIEW in SQL:
+------------
+
+
+Creating VIEW:
+CREATE VIEW student_view AS
+SELECT Name, Roll, Age
+FROM student_details
+
+
+Updating VIEW:
+UPDATE student_view
+set Name = 'Hossain', Age = 52
+WHERE Roll = 105;
+
+
+Inserting VIEW:
+INSERT INTO student_view 
+(Name, Roll, Age)
+VALUES
+('Mofiz', 150, 30);
+
+
+Deleting Row in VIEW:
+DELETE FROM student_view
+WHERE Roll = 106;
+
+
+DROP VIEW:
+DROP VIEW student_view;
+

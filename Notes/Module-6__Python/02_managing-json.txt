@@ -1,0 +1,55 @@
+# Managing JSON
+---------------
+
+    => python object to json string
+
+        import json
+
+        personObj = {
+            "name": "John",
+            "age": 30,
+            "city": "New York",
+            "hasChildren": False,
+            "titles": ["engineer", "programmer"]
+        }
+
+        personJson = json.dumps(personObj, indent=4)
+
+        print(personJson)
+
+    => json string to python object
+
+        import json
+
+        personJson = '{"name": "John", "age": 30, "city": "New York", "hasChildren": false, "titles": ["engineer", "programmer"]}'
+
+        personOBJ = json.loads(personJson)
+
+        print(personOBJ)
+
+    => python object to json string in json file
+
+      import json
+
+      personObj = {
+        "name": "Alice",
+        "age": 25,
+        "city": "San Francisco",
+        "hasChildren": True,
+        "titles": ["designer", "developer"]
+      }
+
+      with open('person.json', 'w') as file:
+        json.dump(personObj, file, indent=4)
+
+    => json file read and convert to python object
+
+      import json
+
+      with open('person.json', 'r') as file:
+        personOBJ = json.load(file)
+        personJSON = json.dumps(personOBJ, indent=4)
+        
+        print(personJSON)
+
+        

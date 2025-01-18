@@ -1,0 +1,9 @@
+There are a number of bulid-in module. such as
+ 
+1. math => Provide Mathmathical Function
+2. os => Intract with the operating system
+3. sys => give access variables and functions intracting with the runtime enviroment
+4. datetime => deals with date and time functions
+5. random => random number generation
+6. time => time related function
+7. JSON => JSON encoding and decoding

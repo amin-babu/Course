@@ -1,0 +1,15 @@
+GROUP BY clause
+
+SELECT column, group_function(column)
+FROM table
+[WHERE condition]
+[GROUP BY group_by_expression]
+[ORDER BY column];
+
+# GROUP BY alawyes will be on middle position.
+# After where, Befor ORDER
+
+SELECT Department, SUM(salary)
+FROM teacher
+GROUP BY Department
+ORDER BY Department DESC;

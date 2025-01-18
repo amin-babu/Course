@@ -1,0 +1,26 @@
+OOP Statice Property in Inheritence
+-----------------------------------
+
+
+=> If parent has static properties, child can access as like as parent.
+
+  => Example:
+  -----------
+  
+    class Father:
+      x = 10
+      y = 20
+
+      @staticmethod
+      def addTwo():
+        print(Father.x + Father.y)
+
+    class Son(Father):
+      pass
+
+    Son.addTwo()
+
+
+=> If child has static properties, parent can't access as like as child.
+
+  => Only can access from child classes

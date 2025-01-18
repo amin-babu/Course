@@ -1,0 +1,10 @@
+Python Module:
+--------------
+
+  => A Python module is a file containing Python code, such as functions, variables, and classes.
+  
+  => Can be imported and used in other Python scripts or interactive sessions.
+  
+  => Modules allow for code reuse, organization, and separation of concerns.
+
+# I know the use case of Module

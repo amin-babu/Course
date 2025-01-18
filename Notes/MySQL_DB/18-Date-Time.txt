@@ -1,0 +1,24 @@
+Date And Time in SQL:
+---------------------
+
+Current Date:
+SELECT CURDATE();
+
+Current Time:
+SELECT CURTIME();
+
+Date And Time:
+SELECT NOW();
+
+Add Date:
+SELECT ADDDATE('2017-9-15', INTERVAL 5 Month);
+
+Add Date:
+SELECT SUBDATE('2017-9-15', INTERVAL 5 Month);
+
+Make Date:
+SELECT MAKEDATE(2024, 363);
+
+Day and Month Name:
+SELECT MONTHNAME('2025-1-5');
+SELECT DAYNAME('2025-1-5');

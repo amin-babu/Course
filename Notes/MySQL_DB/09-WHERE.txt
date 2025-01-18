@@ -1,0 +1,35 @@
+WHERE clause | find records conditionally:
+------------------------------------------
+
+WHERE:
+SELECT Name, Age, City
+FROM student
+WHERE Age > '17';
+
+BETWEEN:
+SELECT Roll, Name, Age, City
+FROM student
+WHERE Age BETWEEN 18 and 40;
+
+NOT:
+SELECT Name, Roll, City, GPA
+FROM student
+WHERE Roll != 103;
+
+OR:
+SELECT *
+FROM student
+WHERE City = 'Sylhet' 
+	AND 
+    	(Gender = 'male' OR Age > 20);
+
+
+IN/NOT:
+SELECT * 
+FROM `student` 
+WHERE City IN ('Sylhet', 'chittagong')
+
+LIKE:
+SELECT * 
+FROM `student` 
+WHERE Name LIKE '_a%'

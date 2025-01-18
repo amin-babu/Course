@@ -1,0 +1,41 @@
+JSON => JavaScript Object Notation
+----------------------------------
+
+# JSON is a Data Interface Format
+
+# JSON is used to maintain data from client side to server side or server side to client side.
+
+# JSON ia a text based light-weight Interface Format
+
+Key Functions:
+--------------
+  => json.dumps() -> json obj to json str
+  => json.loads() -> json str to json obj
+  => json.dump() -> to write json obj in str file
+  => json.load() -> to read json str file
+
+Syntax:
+-------
+
+    json = {
+      "Name": "Amin Babu",
+      "Address": "Bangladesh,Chittagong",
+      "Detail": {
+        "number": 8801727124455,
+        "is_CSE": False,
+        'Deperment': "BBS"
+      },
+      "Skill": [{
+        "markup": "html",
+        "style": "CSS",
+        "Frame-work": "React"
+      }, {
+        "programming": "python",
+        "frame-work": "django",
+      }, {
+        "database": "SQL",
+        "frame-work": "MySQL",
+      }],
+    }
+
+    print(json)

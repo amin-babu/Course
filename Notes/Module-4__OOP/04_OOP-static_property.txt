@@ -1,0 +1,27 @@
+Static Property => Static Methods and Variables
+-----------------------------------------------
+
+  => Static means accessing Variables and Methods outsite of a class without creating any objects, its called static Property.
+
+  => Static Variables can access without setting any decorator like -> @staticmethod
+
+  => Decorator will be needed when access any methods. Decorator is -> @staticmethod
+
+
+
+Example
+-------
+
+    class MyClass:
+
+      x = 10
+      y = 20
+      
+      @staticmethod
+      def AddTwo():
+        z = MyClass.x + MyClass.y
+        print(z)
+
+    print(MyClass.x) #static Variables
+    print(MyClass.y) #static Variables
+    MyClass.AddTwo() #static Methods

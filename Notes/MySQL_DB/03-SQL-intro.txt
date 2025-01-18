@@ -1,0 +1,12 @@
+Introduction to SQL
+
+What is Query? = Query means the purpose of finding some specific records from large DataBase. Insert, Update, Delete, Select etc.
+
+There are 3 types of Query language to maintain DataBase
+1. QUEL (Query language)
+2. QBE (Query by Example)
+3. SQL (Structured Query language)
+
+=> SQL language is not case sensetive
+=> SQL needs semiclone after finishing the statement (;)
+=> SQL can write in one or multiple line

@@ -1,0 +1,40 @@
+OOP Method Overloading
+----------------------
+
+  => Using a method in different way it's called method Overloading. (Polymorphism)
+
+
+  => Using Default Perameter:
+  ---------------------------
+
+      class Father:
+        x = 10
+        y = 20
+
+        def addTwo(self, a=0, b=0):
+          print(self.x + self.y + a + b)
+
+      obj = Father()
+      obj.addTwo()
+      obj.addTwo(5)
+      obj.addTwo(10, 15)
+
+
+  => Using Variable Length Argument:
+  ----------------------------------
+
+      class Father:
+        x = 10
+        y = 20
+
+        def addTwo(self, a=0, b=0):
+          print(self.x + self.y + a + b)
+
+
+        def methods(self, *i):
+          print(i)
+
+      obj = Father()
+      obj.methods(10, 65, 65, 'Hello', False)
+
+    -> It will show as Tupels.

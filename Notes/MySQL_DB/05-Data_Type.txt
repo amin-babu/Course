@@ -1,0 +1,19 @@
+1. Numeric Data Type:
+  => Integer
+  => Float
+  => Double (M,D)
+  => Decimal (M,D)
+
+2. Character Data Type:
+  => Char (m)
+  => Varchar (m)
+  => Text
+
+3. Data and Time Data Type:
+  => YEAR (YYYY)
+  => DATE (YYYY-MM-DD)
+  => TIME (HH:MM:SS)
+
+4. Others Data Type:
+  => BLOB
+  => Logical

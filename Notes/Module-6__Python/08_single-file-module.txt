@@ -1,0 +1,41 @@
+User Define Single file Module:
+-------------------------------
+
+Single file Module means working with another Module to import specific functions and variables.
+
+Example:
+--------
+
+  file1.py:
+  ---------
+
+  from main import x, y, sum, sub, MyClass
+
+  print(sum(74, 6))
+  print(sub(74, 6))
+  print(x)
+  print(y)
+
+  obj = MyClass()
+  print(obj.mul(3,7))
+
+
+  file2.py:
+  ---------
+
+  def sum(x, y):
+    return x + y
+
+  def sub(x, y):
+    return x - y
+
+  x = 50
+  y = 10
+
+  class MyClass:
+  def __init__(self):
+    print('I am a class')
+
+  def mul(self, a, b):
+    return a * b
+

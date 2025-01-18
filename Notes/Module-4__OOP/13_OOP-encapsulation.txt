@@ -1,0 +1,36 @@
+What is Encapsulation?
+----------------------
+  => Encapsulation in OOP means bundling data and methods in a class and restricting direct access to some parts to ensure controlled interaction
+
+Example of Encapsulation
+------------------------
+    class BankAccount:
+
+      __balance = 0
+
+      #deposit
+      def Deposit(self, amount):
+        if amount > 0:
+          self.__balance += amount
+          print(f"{self.__balance} diposit successfully")
+        else:
+          print('Invalid amount')
+        
+      #withdraw
+      def Withdraw(self, amount):
+        if amount > 0 and amount <= self.__balance:
+          self.__balance -= amount
+          print(f"{self.__balance} withdraw successfully")
+        else:
+          print(f"Insufficient Balance")
+      
+      #check
+      def check(self):
+        return self.__balance
+      
+    object = BankAccount()
+
+    object.Deposit(200)
+    print(f"Balance : {object.check()}")
+    object.Withdraw(200)
+    print(f"Balance : {object.check()}")

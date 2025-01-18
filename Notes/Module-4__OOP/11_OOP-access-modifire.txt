@@ -1,0 +1,89 @@
+OOP Access Modifire:
+--------------------
+
+
+# What is Access Modifire
+-------------------------
+  => Control the visibility and accessibility of class attributes and methods
+
+  => It uses naming convention to indicate access level
+
+  => 3 Types of access modifire. Public/Protected/Private
+
+
+
+1. Public Access Modifire:
+--------------------------
+  => Attributes and Methods are public by default
+
+  => No naming convention is needed
+
+  => Can access from [Inside Class] [Child Class] [Outside of a Class]
+
+  => Example:
+  -----------
+
+      class car:
+        brand = 'Toyota'
+
+        def display(self):
+          print(f"Our brand name is {self.brand}")
+
+      obj = car()
+      obj.display()
+      print(obj.brand)
+
+
+
+2. Protected Access Modifire:
+-----------------------------
+
+  => Can access from [Inside Class] [Child Class] [Outside of a Class(Not recommented)]
+
+  => Prefix with a single underscore (_) are protected
+
+  => Protected access modifire and Public access modifire both are same, but protected access modifire should not use in outside. It is not recommented
+
+  => Example
+  ----------
+
+      class car:
+        _brand = 'Toyota'
+
+        def display(self):
+          print(f"Our brand name is {self._brand}")
+        
+      class child(car):
+        def fun2(self):
+          print(f"the car name is {self._brand}")
+
+      obj = child()
+      obj.fun2()
+      print(obj._brand)
+
+
+
+3. Public Access Modifire:
+--------------------------
+
+  => Prefix with double underscore (__) are protected
+
+  => [Only can access from Inside Class] [Doesn't access from Child Class & Outside of a Class]
+
+  => Example:
+  -----------
+
+      class car:
+        __brand = 'Toyota'
+
+        def display(self):
+          print(f"Our brand name is {self.__brand}")
+        
+      class child(car):
+        def fun2(self):
+          print(f"the car name is {self.__brand}")
+
+      obj = car()
+      obj.display()
+
+

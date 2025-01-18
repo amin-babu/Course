@@ -1,0 +1,21 @@
+Aggregate Functions in SQL:
+
+COUNT:
+SELECT COUNT(*)
+FROM student;
+
+MAX:
+SELECT MAX(Age)
+FROM student;
+
+MIN:
+SELECT MIN(Age) AS Age
+FROM student;
+
+SUM:
+SELECT SUM(Age) AS SUM_of_AGE
+FROM student;
+
+AVG:
+SELECT AVG(Age) as AVG_Age
+FROM student;

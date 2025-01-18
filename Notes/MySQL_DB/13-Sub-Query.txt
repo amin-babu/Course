@@ -1,0 +1,5 @@
+Sub Query in SQL:
+
+SELECT * 
+FROM `teacher` 
+WHERE salary > (SELECT AVG(salary) FROM teacher)

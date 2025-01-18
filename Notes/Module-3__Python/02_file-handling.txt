@@ -46,8 +46,8 @@
     -> import zipfile
 
        with zipfile.ZipFile('new.zip', 'w') as zip:
-       zip.write('demo1.txt')
-       zip.write('demo2.txt')
+       zip.write('demo1.txt') #adding file in creating zip
+       zip.write('demo2.txt') #adding file in creating zip
  
  
   => Extract from zip file

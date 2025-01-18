@@ -1,0 +1,18 @@
+User Define Multi-File Module and Packege Development:
+
+To work about Packege
+---------------------
+
+1. Packege Name = Folder Name = NameSpace
+2. __init__.py
+
+Syntax:
+-------
+
+    __version__ = "3.13.0"
+    __author__ = "amin babu"
+
+    from .sum import sum
+    from .sub import sub
+    from .mul import mul
+    from .div import div

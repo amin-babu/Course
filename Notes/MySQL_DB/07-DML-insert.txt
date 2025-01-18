@@ -1,0 +1,24 @@
+DML = Data Manupulation Language. INSERT, SELECT, UPDATE, DELETE
+
+Inserting records into table:
+-----------------------------
+Syntax:
+INSERT INTO student
+(Roll, Name, Gender, Age, GPA, City)
+VALUES
+(103, 'Karim', 'Male', 37, 4.26, 'Chittagong'),
+(102, 'Hasina', 'Female', 18, 3.44, 'Dhaka'),
+(109, 'Asif', 'Male', 24, 3.66, 'Ajimpur');
+
+
+SELECT Statement:
+SELECT Name, Age, City, Roll 
+FROM student;
+
+DISTINCT Keyword:
+SELECT DISTINCT City FROM student; = To avoid same column record
+
+LIMIT Keyword:
+SELECT * 
+FROM student
+LIMIT 2, 4;

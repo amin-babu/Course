@@ -1,0 +1,44 @@
+OOP Constructor
+---------------
+
+  1. Constructors are special methods
+  2. Automatically called when an object of a class is created
+  3. Constructor method is always named __init__
+  4. Don't need to call and return
+
+
+
+Constructor Basic Example:
+--------------------------
+
+  class MyClass:
+    x = 'The '
+    y = 'Answer '
+    
+    def __init__(self, a, b):
+      sum = self.x + self.y  + a + str(b)
+      print(sum)
+
+  obv = MyClass('is ', True)
+
+
+
+Creating Variable by Constructor:
+---------------------------------
+
+  => Its called Instance Variable
+
+  Example:
+  --------
+
+      class MyClass:
+
+        x = 10
+        y = 20
+        
+        def __init__(self, z):
+          self.z = z
+          print(self.x + self.y + self.z)
+
+      obj = MyClass(40)
+

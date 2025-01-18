@@ -1,0 +1,5 @@
+DDL = Data Defination Language. Create, Alter, Drop
+
+Show DataBases = SHOW DATABASES;
+Create DataBase = CREATE DATABASE college;
+Delete DataBase = DROP DATABASE college;

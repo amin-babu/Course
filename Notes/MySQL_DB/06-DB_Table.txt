@@ -1,0 +1,18 @@
+Create, Rename, Drop a Table
+
+1. Create
+  CREATE TABLE student (
+    Roll int,
+      Name varchar(15),
+      Gender varchar(15),
+      Age int(5),
+      GPA double(3,2),
+      City varchar(15),
+      PRIMARY KEY (Roll)
+  );
+
+2. Rename
+  RENAME TABLE student TO students_Details;
+
+3. Drop
+  DROP TABLE students_details;

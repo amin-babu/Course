@@ -1,0 +1,77 @@
+OOP Inheritence Constructor:
+----------------------------
+
+1. When parent class has constructor but Child class ha not the constructor.
+
+  => Child class will get Constructor from parent class as Inheritence, like variable and methods get in Inheritence.
+
+  => Example
+
+      class Father:
+        x = 10
+        y = 20
+        def __init__(self):
+          print(self.x + self.y)
+
+      class son(Father):
+        pass
+
+      obj = Father()
+      obj2 = son()
+
+
+2. When child class has constructor but parent class ha not the constructor.
+
+  => If child class has constructor, it will be executed only for child class, it won't be executed for parent class cause this is not the rules of Inheritence.
+
+  Example:
+  --------
+
+    class Father:
+      x = 10
+      y = 20
+      
+    class son(Father):
+      def __init__(self):
+        print(self.x + self.y)
+
+    obj = Father()
+    obj2 = son()
+
+
+3. When child and parent both has Constructor
+
+  => if child and parent both has constructor, child constructor will be executed, child will not take parent constructor. cause child has a constructor
+
+  Example:
+  --------
+
+    class Father:
+      def __init__(self):
+        print('Father Cons')
+      
+    class son(Father):
+      def __init__(self):
+        print('Son Cons')
+
+    obj2 = son()
+
+
+4. Accessing the parent's constructor
+
+  => How to access the parent constructor if both has constructor. Just will have to write this line in child constructor method. 
+  -> super().__init__()
+
+  => Example:
+  -----------
+
+      class Father:
+        def __init__(self):
+          print('Father Cons')
+        
+      class son(Father):
+        def __init__(self):
+          super().__init__()
+          print('Son Cons')
+
+      obj2 = son()

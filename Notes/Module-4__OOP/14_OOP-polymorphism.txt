@@ -1,0 +1,9 @@
+what is polymorphism?
+---------------------
+  => OverLoading and OverRiding method or function
+
+  => Complie time polymorphism
+    -> OverLoading (Not Built-in)
+
+  => Run time polymorphism
+    -> OverRiding (Built-in)

@@ -1,0 +1,7 @@
+# Key Field = The top or heading of the table or column
+
+There are 3 types of key in DataBase
+  1. Primary Key 
+  2. Composite Primary Key 
+  3. Foreign Key
+

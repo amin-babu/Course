@@ -1,0 +1,32 @@
+ALTER statement in SQL. 
+ALTER is related to Field or Column.
+
+
+ADD Column:
+-----------
+
+ALTER TABLE table_name
+ADD column_name data_type[size];
+
+ALTER TABLE teacher
+ADD Age int(3);
+
+
+Rename Column:
+--------------
+
+ALTER TABLE table_name
+CHANGE oldcolumn_name newcolumn_name data_type[size];
+
+ALTER TABLE teacher
+CHANGE ROLL Dept varchar(15);
+
+
+Drop Column:
+------------
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+ALTER TABLE teacher
+DROP COLUMN dept;

@@ -1,0 +1,10 @@
+Why is DataBase Required?
+
+  => Create DataBase
+  => Update DataBase
+  => Print DataBase
+  => Backup and Recovery DataBase
+  => Save Data
+  => Retrieve Data
+  => Delete Data
+  => Secure Data etc
