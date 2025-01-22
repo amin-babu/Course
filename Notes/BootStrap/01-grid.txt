@@ -5,5 +5,5 @@ Grid system has 5 class:
 .col- (Extra Small Device - screen width < 576px)
 .col-sm- (Small Device - screen width >= 576px)
 .col-md- (Medium Device - screen width >= 768px)
-.col-lg- (Large Device - screen width >= 991px)
+.col-lg- (Large Device - screen width >= 992px)
 .col-xl- (XLarge Device - screen width >= 1200px)

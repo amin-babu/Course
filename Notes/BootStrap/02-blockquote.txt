@@ -1,0 +1,13 @@
+Blockquote and Abbreviations
+
+
+
+<div class="col-lg-4">
+  <blockquote class="blockquote">
+    <i class="fa-3x p-2 fas fa-user-circle"></i>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eaque sit iusto rerum, a modi. <abbr title="Fabliha Amin Nafisa">FAN</abbr></p>
+    <footer class="blockquote-footer">
+      fabliha amin in <cite>Brac</cite>
+    </footer>
+  </blockquote>
+</div>
